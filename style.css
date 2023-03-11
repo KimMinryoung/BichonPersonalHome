@@ -37,9 +37,11 @@ nav ul li:hover {
 
 .visual_box {
     clear:both;
-    max-width:100%;
-    overflow:hidden;
+    margin:0 auto;
+    text-align:center;
 }
+.visual_box img { max-width:100%; }
+
 .product_box { width:100%; padding:20px; }
 .product_box .subject { font-size:40px; }
 .product_box .docu { font-size:20px; }
