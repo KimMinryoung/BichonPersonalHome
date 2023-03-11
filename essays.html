@@ -14,10 +14,10 @@
 	<script>
 		function showEssayContent() {
 			var essay = event.target.nextElementSibling;
-			if (essay.style.display === "none") {
-				essay.style.display = "block";
-			} else {
+			if (essay.style.display == "block") {
 				essay.style.display = "none";
+			} else {
+				essay.style.display = "block";
 			}
 		}
 	</script>

@@ -37,7 +37,7 @@ nav ul li:hover {
 
 .visual_box {
     clear:both;
-    width:100%;
+    max-width:100%;
     overflow:hidden;
 }
 .product_box { width:100%; padding:20px; }
@@ -59,5 +59,3 @@ nav ul li:hover {
     border-bottom:1px solid #EFEFEF;
 }
 .content .span4 { clear:both; text-align:left; }
-
-/*nav ul li:first-child {}*/

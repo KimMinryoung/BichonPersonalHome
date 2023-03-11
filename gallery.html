@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bichon's Blog</title>
+	<style>
+		#gallery-content {
+			display: none;
+		}
+	</style>
+	<script>
+		function showGalleryContent() {
+			var gallery = event.target.nextElementSibling;
+			if (gallery.style.display == "block") {
+				gallery.style.display = "none";
+			} else {
+				gallery.style.display = "block";
+			}
+		}
+	</script>
+</head>
+<body>
+	<a href="index.html"><div class="title_box">비숑 블로그</div></a>
+
+	<h1>이미지</h1>
+	<ul>
+		<li>
+			<a href="#" onclick="showGalleryContent()">1</a>
+			<div id="gallery-content">
+                <div class="visual_box"><img src="images/KokomiIllust1.jpg"></a></div>
+			</div>
+		</li>
+		<li>
+			<a href="#" onclick="showGalleryContent()">2</a>
+			<div id="gallery-content">
+                <div class="visual_box"><img src="images/Kris.gif"></a></div>
+			</div>
+		</li>
+		<li>
+			<a href="#" onclick="showGalleryContent()">3</a>
+			<div id="gallery-content">
+                <div class="visual_box"><img src="images/Tartaglia_illust_ocean.jpg"></a></div>
+			</div>
+		</li>
+	</ul>
+</body>
+</html>
+
